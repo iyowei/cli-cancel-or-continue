@@ -1,0 +1,33 @@
+{
+  "name": "@iyowei/cli-cancel-or-continue",
+  "version": "1.0.0",
+  "description": "拦停命令行会话，以选择中断或继续当前会话。",
+  "main": "cancelOrContinue.js",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iyowei/cli-cancel-or-continue.git"
+  },
+  "keywords": [
+    "iyowei"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iyowei/cli-cancel-or-continue/issues"
+  },
+  "homepage": "https://github.com/iyowei/cli-cancel-or-continue#readme",
+  "type": "module",
+  "exports": "./cancelOrContinue.js",
+  "files": [
+    "cancelOrContinue.js"
+  ],
+  "engines": {
+    "node": ">=12.20.0"
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  }
+}
