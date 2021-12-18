@@ -1,6 +1,6 @@
 {
   "name": "@iyowei/cli-cancel-or-continue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "拦停命令行会话，以选择中断或继续当前会话。",
   "main": "cancelOrContinue.js",
   "scripts": {},
